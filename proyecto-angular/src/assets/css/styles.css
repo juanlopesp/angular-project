@@ -1,0 +1,247 @@
+/*Vars*/
+:root{
+    --header_height: 90px;
+}
+
+
+/*Custom Fonts*/
+
+@font-face {
+    font-family: "Yanone";
+    src: url(fonts/yanone.ttf);
+}
+
+@font-face {
+    font-family: "Finger";
+    src: url(fonts/finger.ttf);
+}
+
+@font-face {
+    font-family: "Titilium";
+    src: url(fonts/titilium.ttf);
+}
+
+/*Project General Styles*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Yanone", Arial;
+    font-size: 20px;
+    background: url(../img/pattern.png);
+    background-attachment: fixed;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/*Header (Web Navigator)*/
+
+header{
+    display: block;
+    width: 100%;
+    height: var(--header_height);
+    background: rgba(53,103,164, 0.8);
+    position: fixed;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header ul{
+    display: block;
+    width: 50%;
+    height: inherit;
+    margin: 0 auto;
+    margin-top: -3px;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 90px;
+}
+
+header a{
+    display: block;
+    padding-inline: 20px;
+    height: inherit;
+    text-decoration: none;
+    color: white;
+    transition: all 1000ms;
+}
+
+header a:hover, .actived{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*Logo*/
+
+#logo{
+    font-family: "Finger";
+}
+
+#logo a{
+    transition: color 500ms, transform 500ms;
+}
+
+#logo a:hover{
+    background: transparent;
+    color: black;
+    transform: scale(1.8, 1.8) rotate(375deg);
+}
+
+/*Main Container*/
+
+#content{
+    min-height: 500px;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 40px black;
+    border-inline: 1px solid black;
+    background-color: rgba(255,255,255,0.7);
+    padding-top: var(--header_height);
+}
+
+/*Footer*/
+
+footer{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 15px;
+    color: rgba(0,0,0,0.5)
+}
+
+/*About me*/
+
+#title{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#title h1{
+    font-family: "Finger";
+    font-size: 60px;
+    border-bottom:  1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+#title h2{
+    font-size: 25px;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article.about{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+.about h2{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.about p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+/* New Project Form*/
+
+.container{
+    padding: 50px;
+    padding-top: 10px;   
+}
+
+.container h2{
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+form{
+    width: 80%;
+}
+
+form label{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form textarea{
+    width: 40%;
+    padding: 5px;
+}
+
+form button,
+form input[type="submit"]{
+    display: block;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 15px;
+    color: white;
+    background-color:rgba(53,103,164, 1);
+    border: 1px solid rgba(13,67,133, 1);
+    cursor: pointer;
+}
+
+form button:hover,
+form input[type="submit"]:hover{
+    background-color:rgba(53,103,164, 0.6);
+    border: 1px solid rgba(13,67,133, 1);
+    transition: all 500ms;
+}
+
+form input[disabled]{
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
+.form_error{
+    font-size: 13px;
+    padding: 3px;
+    margin-left: 5px;
+    background: red;
+    color: white;
+}
+
+.message{
+    width: 30%;
+    padding: 5px;
+    border: 2px solid #eee;
+}
+
+.message a{
+    color: white;
+}
+
+.success{
+    background-color: green;
+    color: white;
+}
+
+.failed{
+    background-color: red;
+    color: white;
+}
+
