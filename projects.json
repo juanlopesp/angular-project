@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "63a4ddd8942de8df6c7c83af"
+  },
+  "name": "Blog",
+  "description": "Blog personal",
+  "category": "Informatica",
+  "langs": [
+    "PHP",
+    "MYSQL",
+    "CSS"
+  ],
+  "year": 2013
+},{
+  "_id": {
+    "$oid": "63a5ef17c233c9e52f9426a9"
+  },
+  "name": "juan",
+  "description": "hola juan",
+  "category": "informatica",
+  "year": 2022,
+  "langs": "PHP,JAVA,CSS",
+  "__v": 0,
+  "image": "iARp-LZLaCsZtOgWJiVHEoOI.jpg"
+},{
+  "_id": {
+    "$oid": "63bc96069be73dbd7f81889b"
+  },
+  "name": "Facebook",
+  "description": "Mark Zuckenberg",
+  "category": "Feisbu",
+  "year": 2023,
+  "langs": "React",
+  "__v": 0,
+  "image": "vYY1xCwGJ666OwzdYNo4uLZl.jpg"
+},{
+  "_id": {
+    "$oid": "63d3ea8c533ef694132b5d5f"
+  },
+  "name": "Juan Lopez Espinosa",
+  "description": "adadada",
+  "category": "AAAAAAAAAAAAAAA",
+  "year": 2023,
+  "langs": "AAAAAAAAAA",
+  "image": "r3BJwIbED5KIdwmuCrXpIJoI.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63d3ec02533ef694132b5d62"
+  },
+  "name": "Pedro",
+  "description": "adadawdadfadfafasvcgxvxz",
+  "category": "PEDRO",
+  "year": null,
+  "langs": "fsfsfs",
+  "image": "7IIZ7l-MjyEz1Luw1zXs_lI8.jpg",
+  "__v": 0
+}]
