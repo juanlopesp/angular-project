@@ -245,3 +245,18 @@ form input[disabled]{
     color: white;
 }
 
+/*Projects Page*/
+
+.project{
+    list-style: none;
+    display: block;
+    float : left;
+    width: 25%;
+    text-align: center;
+    margin-inline: 20px;
+}
+
+.project img{
+    height: 20%;
+    width: 100%;
+}
